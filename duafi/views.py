@@ -1,0 +1,120 @@
+from django.shortcuts import get_object_or_404, render
+from django.http import HttpResponseRedirect
+from django.core.urlresolvers import reverse
+from django.views import generic
+from django.views.generic.base import View
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth import authenticate, login
+from django.utils.decorators import method_decorator
+from django.shortcuts import render_to_response
+from django.template import RequestContext
+from django.http import HttpResponse
+
+from django.shortcuts import render_to_response
+from django.template import RequestContext
+
+
+
+def HomeView(request):
+        return render(request, 'duafi/index.html')
+
+def PasteventsView(request):
+        return render(request, 'duafi/pastevents.html')
+
+def PresenteventsView(request):
+        return render(request, 'duafi/index.html')
+
+def FutureeventsView(request):
+        return render(request, 'duafi/futureevents.html')
+
+
+
+def ResourcesView(request):
+        return render(request, 'duafi/resources.html')
+
+
+
+
+def GiveView(request):
+        return render(request, 'duafi/give.html')
+        
+def GivetoscholarshipView(request):
+        return render(request, 'duafi/givetoscholarship.html')
+        
+def GivetoduafiView(request):
+        return render(request, 'duafi/givetoduafi.html')
+
+
+
+
+def MembersView(request):
+        return render(request, 'duafi/members.html')
+        
+def BecomeamemberView(request):
+        return render(request, 'duafi/becomeamember.html')
+
+def MembershipbenefitView(request):
+        return render(request, 'duafi/membershipbenefit.html')
+
+def CurrentmembersView(request):
+        return render(request, 'duafi/currentmembers.html')
+
+
+
+
+def BlogView(request):
+        return render(request, 'duafi/blog.html')
+
+
+
+
+def AboutusView(request):
+        return render(request, 'duafi/aboutus.html')
+
+def AtaglanceView(request):
+        return render(request, 'duafi/ataglance.html')
+
+def AoiView(request):
+        return render(request, 'duafi/aoi.html')
+
+def BodView(request):
+        return render(request, 'duafi/bod.html')
+
+#def ContactView(request):
+        #return render(request, 'duafi/contact.html')
+
+
+
+
+
+#Start contact ============================================================= 
+
+from django.core.mail import send_mail, BadHeaderError
+from django.http import HttpResponse, HttpResponseRedirect
+from django.shortcuts import render, redirect
+from duafi.forms import ContactForm
+
+def ContactView(request):
+    if request.method == 'GET':
+        form = ContactForm()
+    else:
+        form = ContactForm(request.POST)
+        if form.is_valid():
+            name = form.cleaned_data['name']
+            from_email = form.cleaned_data['from_email']
+            subject = form.cleaned_data['subject']
+            message = form.cleaned_data['message']
+            try:
+                #  send_mail(name, from_email, subject, message, ['rabbaniny@yahoo.com'])
+	        send_mail( subject, message, from_email, ['sohrab1133@gmail.com'])
+            except BadHeaderError:
+                return HttpResponse('Invalid header found.')
+            return redirect('thanks')
+    return render(request, "duafi/contact.html", {'form': form})
+
+def Thanksview(request):
+    return HttpResponse('Thank you for your message.')
+
+#End========================================================================
+
+

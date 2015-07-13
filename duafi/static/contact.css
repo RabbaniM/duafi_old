@@ -1,0 +1,129 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  /* line-height: 1; */
+  margin:0% auto;
+  font-size:;
+  font-family:;}
+
+
+a, hover{
+	text-decoration:none}
+	
+.iwidth{
+	width: 100%;
+	height: ;
+	background-color:#D3D3D3;
+	border:0px solid #999;
+	font-size:90% !important;
+	padding:5px;
+   padding-left-ltr-source: physical;
+   padding-left-rtl-source: physical;
+   padding-right-ltr-source: physical;
+   padding-right-rtl-source: physical;
+	outline:0px solid #666;}
+
+.contactimage{
+	margin: 0% auto;}
+
+
+#font_2 {
+  font: normal normal normal 41px/1.4em Anton,sans-serif;
+  font-family: Anton, sans-serif;
+  font-size: 41px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #A7A08C;
+  border:0px solid #000;}
+
+#font_6 {
+  font: normal normal normal 20px/1.4em Signika,sans-serif;
+  font-family: Signika, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #CECEC0;
+  border:0px solid #000;}
+  
+#font_8 {
+  font: normal normal normal 15px/1.4em Signika,sans-serif;
+  font-family: Signika, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #666258;
+  text-align: justify;
+  text-justify: inter-word;}
+
+
+	
+#staycolor{
+	color:#81F7F3;}
+
+
+#stage{
+	width:920px;
+	height:;
+	border:0px solid #000;
+	margin:0% auto;
+	margin-top:65px;
+	background-color:;}
+
+
+#leftdiv{
+	width:;
+	height:;
+	border:0px solid #000;
+	margin-top:200px;
+	float: left;
+	margin-top:;
+	background-color:;}
+
+#rightdiv{
+	width:300px;
+	height:;
+	border:0px solid #000;
+	margin:0% auto;
+	margin-bottom: 60px;
+	float: right;
+	margin-top:;
+	background-color:;}
+
+#table{
+	width:95%;
+	height:;
+	border:0px solid #000;
+	margin:0% auto;
+	background-color:;}
+
+#id_message{
+	width:300px;
+	height:150px !important;
+	vertical-align:top;
+	clear: both;}
+
+#submitbutton{
+	width:100px;
+	height:30px;
+	color:#FFF;
+	border: 0px solid #FFF;
+	text-align:center;
+	background-color:#FF3300;
+	clear: both;}
+
+#submitbutton:hover{
+	background-color:#CC2900;}
+
+
+

@@ -1,0 +1,70 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  /* line-height: 1; */
+  margin:0% auto;
+  font-size:;
+  font-family:;}
+
+
+a, hover{
+	text-decoration:none}
+	
+	
+#font_2 {
+  font: normal normal normal 41px/1.4em Anton,sans-serif;
+  font-family: Anton, sans-serif;
+  font-size: 41px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #A7A08C;
+  border:0px solid #000;}
+
+#font_6 {
+  font: normal normal normal 20px/1.4em Signika,sans-serif;
+  font-family: Signika, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #CECEC0;
+  border:0px solid #000;}
+  
+#font_8 {
+  font: normal normal normal 15px/1.4em Signika,sans-serif;
+  font-family: Signika, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #666258;
+  text-align: justify;
+  text-justify: inter-word;}
+
+
+#staycolor{
+	color:#81F7F3;}
+
+
+
+#stage{
+	width:920px;
+	height:;
+	border:1px solid #000;
+	margin:0% auto;
+	margin-top:65px;
+	margin-bottom: 70px;
+	background-image: url('DUAFI-AOI.pdf');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+	text-align: justify;}
+

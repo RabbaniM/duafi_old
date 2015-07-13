@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  /* line-height: 1; */
+  margin:0% auto;
+  font-size:;
+  font-family:;}
+
+
+a, hover{
+	text-decoration:none}
+	
+.cmdiv{
+	width:430px;
+	width:430px;
+	height:300px;
+	border:5px solid #D5D5D3;
+	margin-bottom:30px;
+	background-color:;}
+	
+.cm{
+	width:;
+	height:130px;
+	border:12px solid #D5D5D3;
+	border-top:10px solid #D5D5D3;
+	border-left:10px solid #D5D5D3;
+	border-right:10px solid #D5D5D3;
+	margin-bottom:30px;
+	background-color:}
+	
+.cmtext{
+	width:100%;
+	height:140px;
+	border:0px solid #000;
+	margin:0% auto;
+	margin-bottom:;
+	text-align: justify;
+	background-color:}		
+	
+.photo{
+	width:120px;
+	height:115px;
+	border:0px solid #000;
+	margin:0% auto;
+	margin-bottom:;
+	background-color:FFF;
+	box-shadow: 3px 3px 2px #0B0B61;}
+	
+#font_2 {
+  font: normal normal normal 41px/1.4em Anton,sans-serif;
+  font-family: Anton, sans-serif;
+  font-size: 41px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #A7A08C;
+  border:0px solid #000;
+  letter-spacing: 0.00001px;
+  word-spacing: 2px;}
+
+#font_6 {
+  font: normal normal normal 20px/1.4em Signika,sans-serif;
+  font-family: Signika, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #CECEC0;
+  border:0px solid #000;
+  text-align: justify;}
+  
+#font_8 {
+  font: normal normal normal 15px/1.4em Signika,sans-serif;
+  font-family: Signika, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #666258;
+  text-align: justify;
+  text-justify: inter-word;}
+
+
+	
+
+#staycolor{
+	color:#81F7F3;}
+
+
+
+#stage{
+	width:920px;
+	height:;
+	border:0px solid #000;
+	margin:0% auto;
+	margin-top:65px;
+	margin-bottom: 70px;
+	background-color:;}
+
+
+#headdescription{
+	width:920px;
+	height:;
+	border:0px solid #000;
+	margin:0% auto;
+	margin-bottom:15px;
+	text-align: justify;
+	background-color:;}
+

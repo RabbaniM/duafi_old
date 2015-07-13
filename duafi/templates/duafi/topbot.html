@@ -1,0 +1,209 @@
+{% load staticfiles %}
+
+
+<head>
+<title>duafi</title>
+<link rel="icon" href="../static/images/icon.png" type="image/png" sizes="16x16">
+</head>
+
+
+
+
+<!-- Start Top -->
+<div id="top">
+{% block topmenu %}
+<link rel="stylesheet" type="text/css" href="{% static 'topbot.css' %}" />
+
+
+
+<div id="cellnobox">
+   <div id="cellno">
+   <table width="100%" border="0">
+      <tr>
+	<td align="left"><font color="#666258"><strong>CALL US:</strong> 1-000-000-0000</font></td>
+	<td align="right"><img src="../static/images/callimage.00_png_srb"/></td>
+      </tr>
+   </table>
+   </div>
+</div>
+
+
+
+<!-- Start menu -->
+<div id="menubox">
+  <div id="menulogocover">
+
+    <div id="logo">
+      <span style="font-weight: bold;">
+      	<span style="font-family:comic sans ms,comic-sans-w01-regular,comic-sans-w02-regular,comic-sans-w10-regular,cursive;"><i>DUAFI</i></span>      	
+      </span>
+    </div>
+
+
+
+
+
+
+
+<!-- Start menu -->
+
+
+<div id="menu">
+                <ul>
+                   <li><a href="{% url 'presentevents' %}">Events</a>
+                       <ul>
+			<li><a href="{% url 'pastevents' %}">Past Events</a></li>
+                        <li><a href="{% url 'futureevents' %}">Future Events</a></li>
+                       </ul>
+                   </li>
+                </ul>
+
+                <ul>
+                   <li><a href="{% url 'resources' %}">Resources</a></li>
+                </ul>
+
+                <ul>
+                   <li><a href="{% url 'give' %}">Give</a>
+                   	  <ul>
+                         <li><a href="{% url 'givetoscholarship' %}">Give to Scholarship</a></li>
+                         <li><a href="{% url 'givetoduafi' %}">Give to DUAFI</a></li>
+                      </ul>
+                   </li>
+                </ul>
+
+                <ul>
+                   <li><a href="{% url 'members' %}">Members</a>
+                       <ul>
+                           <li><a href="{% url 'becomeamember' %}">Become a Member</a></li>
+                           <li><a href="{% url 'membershipbenefit' %}">Membership Benefit</a></li>
+                           <li><a href="{% url 'currentmembers' %}">Current Members</a></li>
+                        </ul>
+                   </li>
+                </ul>
+                
+                <ul>
+                   <li><a href="{% url 'blog' %}">Blog</a></li>
+                </ul>
+                
+                <ul>
+                   <li><a href="{% url 'aboutus' %}">About Us</a>
+                       <ul>
+                           <li><a href="{% url 'ataglance' %}">At a Glance</a></li>
+                           <li><a href="{% url 'aoi' %}">AOI</a></li>
+                           <li><a href="{% url 'bod' %}">BOD</a></li>
+                           <li><a href="{% url 'contact' %}">Contact</a></li>
+                        </ul>
+                   </li>
+                </ul>
+                </div>
+
+
+<!-- End menu -->
+
+
+
+
+  </div>
+</div>
+<!-- End menu -->
+
+
+{% endblock topmenu %}
+</div>
+<!-- End top -->
+
+
+
+
+
+
+
+
+
+
+<div id="body">
+{% block body %}{% endblock body %}
+</div>
+    
+ 
+
+
+
+
+
+
+
+<!-- ********** start bottom *********  -->
+<div id="bottom">
+{% block bottom %}
+
+
+	<!-- ******** start bottombox *******  -->
+	<div id="bottombox">
+
+
+	<!-- ******** start bottomlheading *******  -->
+	<div id="bottomlheading">
+	<table width="99.50%" height="" border="0px">
+	  <tr>
+	     <td align="left"><font size="4" color="#F8D43D;"><strong>Contact Us</strong></font></td>
+	     <td align="right"><font size="4" color="#F8D43D;">J<strong>oin Us On</strong></font></td>
+	  </tr>
+	</table>
+	</div>
+	<!-- ******** end bottomlheading *******  -->
+
+
+
+	<div id="contactfollow">
+
+	    <div id="contactdetails">
+	    <br>DUAFI<br>0000 Mission St.<br>
+ United States of America. <br><br>info.duafi@yahoo.com<br>Skype: duafi_skype<br> Tel: 000-000-0000 <br>Fax: 000-000-0000
+	    </div>
+
+	    <div id="follow">
+
+		<table align="right" border="0" cellspacing="2" cellpadding="4">
+		  <tr>
+		      <td><font size="-1" color="#FFF">facebook</font></td>
+		      <td><a href="#"><img width="25px" height="25px" src="../static/images/facebook.png"/></a></td>
+		  </tr>
+		  <tr>
+		      <td><font size="-1" color="#FFF">twitter</font></td>
+		      <td><a href="#"><img width="25px" height="25px" src="../static/images/twitter.png"/></a></td>
+		  </tr>
+		  <tr>
+		      <td><font size="-1" color="#FFF">google plus</font></td>
+		      <td><a href="#"><img width="25px" height="25px" src="../static/images/google.png"/></a></td>
+		  </tr>
+		  <tr>
+		      <td><font size="-1" color="#FFF">youtube</font></td>
+		      <td><a href="#"><img width="25px" height="25px" src="../static/images/youtube.png"/></a></td>
+		  </tr>
+		</table>
+	    </div>
+
+	</div>
+	</div>
+	<!-- ******** end bottombox *******  -->
+
+
+	<!-- ******** start bottomline3 *******  -->
+	<div id="bottomline3">
+	<table id="bottomline3table" align="center" border="0" >
+	   <tr>
+		<td align="left">Copyright@ Dhaka University Alumni Forum, Inc.</td>
+		<td align="right"><a target="blank" href="http://www.career-mind.com/" style="color:#FFF">Powered By: Career-Mind</a></td>	   
+	   </tr>
+	</table>
+	</div>
+	<!-- ******** end bottomline3 *******  -->
+
+
+
+{% endblock bottom %}
+</div>
+<!-- ********** end bottom *********  -->
+
+

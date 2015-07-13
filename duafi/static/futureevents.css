@@ -1,0 +1,108 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  /* line-height: 1; */
+  margin:0% auto;
+  font-size:;
+  font-family:;}
+
+
+a, hover{
+	text-decoration:none}
+	
+
+#staycolor{
+	color:#81F7F3;}
+
+	
+#font_2 {
+  font: normal normal normal 41px/1.4em Anton,sans-serif;
+  font-family: Anton, sans-serif;
+  font-size: 41px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #A7A08C;
+  border:0px solid #000;}
+
+#font_6 {
+  font: normal normal normal 20px/1.4em Signika,sans-serif;
+  font-family: Signika, sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #CECEC0;
+  border:0px solid #000;}
+  
+  
+#font_5{
+  font: normal normal normal 30px/1.4em Signika,sans-serif;
+  font-family: Signika, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  letter-spacing: -1px;
+  color: #A7A08C;}
+
+#font_8 {
+  font: normal normal normal 15px/1.4em Signika,sans-serif;
+  font-family: Signika, sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #666258;
+  text-align: justify;
+  text-justify: inter-word;}
+
+
+#stage{
+	width:920px;
+	height:;
+	border:0px solid #000;
+	margin:0% auto;
+	margin-top:65px;
+	background-color:;}
+
+#heading{
+	width: 920px;
+	height: 90px;
+	margin:;
+	border: 0px solid #000;
+	clear: both;}
+	
+#imageslide{
+	width: 600px;
+	height: 300px;
+	border:1px solid #000;
+	float: left;
+	margin: 0% auto;
+	margin-top: 8px;
+	margin-bottom: 100px;
+	border: 0px solid #000;
+	clear: both;}
+
+#eventsparagraph{
+	width: 300px;
+	height: 279px;
+	border:1px solid #000;
+	float: right;
+	margin: 0% auto;
+	margin-top: 8px;
+	margin-bottom: 100px;
+	border: 0px solid #A7A08C;
+	box-shadow: 0px 0px 2px 2px #A7A08C;
+	text-align: justify;
+	padding: 10px;}

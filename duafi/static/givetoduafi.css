@@ -1,0 +1,98 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  /* line-height: 1; */
+  margin:0% auto;
+  font-size:;
+  font-family:;}
+
+
+a, hover{
+	text-decoration:none}
+
+
+.iwidth{
+	width: 100%;
+	background-color:#D3D3D3;
+	border:0px solid #999;
+	font-size:90% !important;
+	padding:5px;
+   padding-left-ltr-source: physical;
+   padding-left-rtl-source: physical;
+   padding-right-ltr-source: physical;
+   padding-right-rtl-source: physical;
+	outline:0px solid #666;}
+
+
+	
+#font_2{
+  font: normal normal normal 41px/1.4em Anton,sans-serif;
+  font-family: Anton, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 1.4em;
+  color: #A7A08C;
+  border:0px solid #000;}
+
+#staycolor{
+	color:#81F7F3;}
+
+#stage{
+	width:920px;
+	height:;
+	border:0px solid #000;
+	margin:0% auto;
+	margin-top:65px;
+	background-color:;}	
+
+#leftdiv{
+	width:500px;
+	height:550px;
+	border:0px solid #000;
+	margin:0% auto;
+	float: left;
+	margin-top:;
+	background-color:;}
+
+#rightdiv{
+	width:400px;
+	height:;
+	border:0px solid #000;
+	margin:0% auto;
+	float: right;
+	margin-top:;
+	margin-bottom: 75px;
+	background-color:;}
+
+#table{
+	width:100%;
+	height:;
+	border:0px solid #000;
+	margin:0% auto;
+	background-color:;}
+
+#id_massage{
+	width:;
+	height:200px !important;
+	vertical-align:top;
+	clear: both;}
+
+#submitbutton{
+	width:100px;
+	height:30px;
+	color:#FFF;
+	border: 0px solid #FFF;
+	text-align:center;
+	background-color:#FF3300;
+	clear: both;}
+
+#submitbutton:hover{
+	background-color:#CC2900;}
+
+
+

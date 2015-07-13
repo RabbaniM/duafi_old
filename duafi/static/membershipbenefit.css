@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+  /* line-height: 1; */
+  margin:0% auto;
+  font-size:;
+  font-family:;}
+
+
+a, hover{
+	text-decoration:none}
+	
+
+#staycolor{
+	color:#81F7F3;}
+
+
+
+#stage{
+	width:920px;
+	height:1310px;
+	border:1px solid #000;
+	margin:0% auto;
+	margin-top:65px;
+	background-color:;}
+
